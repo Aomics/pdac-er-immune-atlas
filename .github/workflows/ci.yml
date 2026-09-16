@@ -1,1 +1,28 @@
-...
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Miniconda
+        uses: conda-incubator/setup-miniconda@v3
+        with:
+          environment-file: environment.yml
+          activate-environment: pdac-er-immune-atlas
+
+      - name: Check Nextflow syntax
+        run: |
+          echo "Placeholder: anadir validacion de sintaxis Nextflow"
+
+      - name: Placeholder tests
+        run: |
+          echo "Placeholder: anadir tests"

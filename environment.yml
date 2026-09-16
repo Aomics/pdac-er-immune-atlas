@@ -1,1 +1,11 @@
-...
+name: pdac-er-immune-atlas
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - r-base=4.3
+  - pip
+  - pip:
+      - pandas
+      - numpy

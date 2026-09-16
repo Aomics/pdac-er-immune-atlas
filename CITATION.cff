@@ -1,1 +1,10 @@
-...
+cff-version: 1.2.0
+message: "Si utilizas este software o los resultados derivados de él, por favor cita este trabajo."
+title: "PDAC-ER-Immune Atlas"
+authors:
+  - family-names: "Aguilera Martín"
+    given-names: "Adrián"
+    affiliation: "Independent researcher / MSc Bioinformatics and Biomedical Data Analysis"
+date-released: 2026-09-16
+repository-code: "https://github.com/AdrianOmics/pdac-er-immune-atlas"
+license: MIT

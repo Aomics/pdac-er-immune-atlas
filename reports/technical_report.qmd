@@ -1,1 +1,27 @@
-...
+---
+title: "PDAC-ER-Immune Atlas — Informe técnico"
+author: "Adrián Aguilera Martín"
+date: last-modified
+format:
+  html:
+    toc: true
+    code-fold: true
+execute:
+  echo: true
+---
+
+## Introducción
+
+Pendiente de desarrollo.
+
+## Métodos
+
+Pendiente de desarrollo.
+
+## Resultados
+
+Pendiente de desarrollo.
+
+## Discusión y limitaciones
+
+Pendiente de desarrollo.
